@@ -7,7 +7,7 @@ line_list = []
 def main():
 	with open(file_name, "r") as file:
 		for line in file:
-			line = line.rstrip("\n")	# Remove last "Enter" char
+			line = line.rstrip("\n")	# Remove last "Return" char
 			print(line)
 			line_list.append(line)	# Store each line of file in list
 
